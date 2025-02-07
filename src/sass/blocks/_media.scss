@@ -1,8 +1,8 @@
 @media screen and (max-width: 1440px) {
   .container {
     max-width: none;
-      padding-left: 10%;
-  padding-right: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
   }
 }
 
@@ -36,8 +36,10 @@
   }
   .advantages {
     padding: 50px 0;
+    &__wrapper {
+      justify-content: space-around;
+    }
     &__item {
-      // width: 210px;
       width: 150px;
       &_title {
         margin-top: 20px;
@@ -50,6 +52,9 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
   .button {
     font-size: 6px;
     width: 108px;
@@ -101,9 +106,6 @@
     }
   }
   .advantages {
-    &__title {
-      font-size: 24px;
-    }
     &__wrapper {
       margin-top: 40px;
     }
@@ -122,6 +124,9 @@
 }
 
 @media screen and (max-width: 576px) {
+  .title {
+    font-size: 16px;
+  }
   .button {
     font-size: 7px;
     width: 88px;
@@ -189,9 +194,6 @@
   }
   .advantages {
     padding: 24px 0;
-    &__title {
-      font-size: 16px;
-    }
     &__wrapper {
       margin-top: 10px;
       flex-direction: column;

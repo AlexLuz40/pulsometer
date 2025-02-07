@@ -1,4 +1,13 @@
-@use 'base/variables' as *;
+// @use 'base/variables' as *;
+@use 'blocks/titles';
+@use 'blocks/buttons';
+@use 'blocks/promo';
+@use 'blocks/header';
+@use 'blocks/advantages';
+@use 'blocks/consultation';
+@use 'blocks/forms';
+
+@use 'blocks/media';
 
 h1,
 h2,
@@ -35,10 +44,3 @@ h5 {
   max-width: 950px;
   margin: 0 auto;
 }
-
-@import 'blocks/buttons';
-@import 'blocks/promo';
-@import 'blocks/header';
-@import 'blocks/advantages';
-
-@import 'blocks/media';
