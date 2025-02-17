@@ -1,0 +1,51 @@
+@use 'blocks/titles';
+@use 'blocks/buttons';
+@use 'blocks/promo';
+@use 'blocks/header';
+@use 'blocks/advantages';
+@use 'blocks/consultation';
+@use 'blocks/forms';
+@use 'blocks/carousel';
+@use 'blocks/catalog';
+@use 'blocks/reviews';
+@use 'blocks/footer';
+@use 'blocks/modal';
+
+@use 'blocks/media';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p,
+ol,
+ul {
+  margin: 0;
+}
+
+ol[role="list"],
+ul[role="list"] {
+  list-style: none;
+  padding-inline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+* {
+  font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
