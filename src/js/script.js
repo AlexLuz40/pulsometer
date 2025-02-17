@@ -133,7 +133,7 @@ $(document).ready(function () {
 
     $.ajax({
       type: 'POST',
-      url: '</src/js/mailer/smart.php',
+      url: 'mailer/smart.php',
       data: $(this).serialize()
     }).done(function () {
       $(this).find('input').val('');
